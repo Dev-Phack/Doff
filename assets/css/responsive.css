@@ -1,4 +1,8 @@
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1199px) {
+    .nav-social-link{
+        display: none;
+    }
+}
 @media screen and (max-width: 920px) {}
 @media screen and (max-width: 991px) {
     .nav-social-link{
