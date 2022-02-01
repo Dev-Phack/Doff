@@ -1,0 +1,64 @@
+@import url("assets/vendor/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+@import url("assets/vendor/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf");
+@import url("assets/vendor/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+
+*{
+    font-family: "OpenSans-Regular";
+}
+
+nav{
+    font-family: "OpenSans-Bold";
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 15px;
+    color: inherit!important;
+    text-transform: uppercase;
+}
+
+.logo-text{
+    /* font-family: "OpenSans-Bold"; */
+    /* font-weight: bold; */
+    font-size: 12px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.logo-complet{
+    display: flex;
+}
+/* toggle menu bar */
+
+.container-toggle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-40deg) translate(-6px, 6px);
+  transform: rotate(-40deg) translate(-6px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(40deg) translate(-6px, -6px);
+  transform: rotate(40deg) translate(-6px, -6px);
+}
+.tog-nav{
+    border: none;
+    background-color:inherit;
+    padding: 0;
+}
+.navbar-toggler{
+    border: none!important;
+}
+/* end toggle menu bar */
