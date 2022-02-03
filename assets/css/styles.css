@@ -18,17 +18,16 @@ nav{
 }
 
 .logo-text{
-    /* font-family: "OpenSans-Bold"; */
-    /* font-weight: bold; */
     font-size: 12px;
     margin: auto;
     text-transform: uppercase;
 }
+
 .logo-complet{
     display: flex;
 }
-/* toggle menu bar */
 
+/* toggle menu bar */
 .container-toggle {
   display: inline-block;
   cursor: pointer;
@@ -44,21 +43,88 @@ nav{
 
 .change .bar1 {
   -webkit-transform: rotate(-40deg) translate(-6px, 6px);
-  transform: rotate(-40deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
   -webkit-transform: rotate(40deg) translate(-6px, -6px);
-  transform: rotate(40deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
 }
+
 .tog-nav{
     border: none;
     background-color:inherit;
     padding: 0;
 }
+
 .navbar-toggler{
     border: none!important;
 }
 /* end toggle menu bar */
+
+.carousel-caption-other{
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(1px);
+}
+
+.carousel-caption{
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: left;
+  padding-left: 5rem;
+}
+
+.btn-slide-prev {
+  color: #fff;
+  height: 100px;
+  margin: auto;
+}
+
+.btn-slide-next {
+  color: #fff;
+  height: 100px;
+  margin: auto;
+}
+
+.carousel-mobile{
+  display: none;
+}
+
+.carousel-desc{
+  position: relative;
+  margin-left: 1.5rem;
+  bottom:2rem;
+}
+
+.carousel-desc-1{
+  bottom: 3rem;
+}
+
+.carousel-desc h5{
+  font-size: 13px;
+  color: #fff;
+}
+
+.filtre{
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+}
+
+.carousel-mobile a{
+  text-decoration: none;
+}
+
+.footer-text{
+  font-size: 15px;
+}
+
+.footer-mobile{
+  display: none;
+}
+
+.footer-social-link a{
+  text-decoration: none;
+}

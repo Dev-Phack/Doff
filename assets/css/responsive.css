@@ -2,6 +2,14 @@
     .nav-social-link{
         display: none;
     }
+    .footer-desktop{
+        display: none;
+    }
+    .footer-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 920px) {}
 @media screen and (max-width: 991px) {
@@ -11,11 +19,6 @@
     .nav-links{
           background-color: #D9D9D9;
           position: relative!important;
-          /* width: 100%; */
-          /* right: 0px!important; */
-          /* left: 30px!important; */
-          /* margin-left: 25px; */
-          /* margin-right: 20px; */
           min-width: 125%;
     }
     .nav-item{
@@ -38,6 +41,12 @@
 @media screen and (max-width: 767px) {
     .nav-link{
         margin-left: 48px;
+    }
+    .carousel-desktop{
+        display: none;
+    }
+    .carousel-mobile{
+        display: block;
     }
 }
 @media screen and (max-width: 592px) {}
