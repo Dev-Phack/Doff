@@ -48,6 +48,15 @@
     .carousel-mobile{
         display: block;
     }
+    nav{
+        position: static!important;
+    }
+    .first-br-after-nav{
+        display: none;
+    }
+    .br-after-nav{
+        display: none;
+    }
 }
 @media screen and (max-width: 592px) {}
 @media screen and (max-width: 570px) {}
