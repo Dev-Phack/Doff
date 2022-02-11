@@ -1,0 +1,62 @@
+.oeuvres-title{
+    display: flex;
+    flex-direction: column;
+}
+.oeuvres-title h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.oeuvres-title img{
+    margin: auto;
+}
+.card-text-perso{
+    position: absolute;
+    bottom: 4rem;
+    left: 4rem;
+    /* right: 15rem; */
+}
+.card-oeuvre-filtre{
+    display: none;
+}
+.card-oeuvre:hover .card-oeuvre-filtre{
+    display: block;
+}
+.card-oeuvre:hover img{
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+    transition: all 1s;
+}
+.modal{
+    background-color: transparent!important;
+}
+.my-btn-close{
+  background-color: transparent;
+  padding: 0;
+  position: absolute;
+  right: -1.3rem;
+  top: -1.3rem;
+}
+.modal-content{
+    border: none;
+}
+.br-after-oeuvre{
+    display: none;
+}
+.btn-see-big-oeuvre{
+    display: none;
+}
+.card-title{
+    font-weight: bold;
+}
+.oeuvre-left{
+    padding-right: 2rem;
+}
+.oeuvre-right{
+    padding-left: 2rem;
+}
+.mn-section{
+    margin-top: 7rem!important;
+}

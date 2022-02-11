@@ -1,0 +1,43 @@
+/* @media screen and (max-width: 1400px) {
+    .card-text-perso{
+        bottom: 6rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .card-text-perso{
+        bottom: 8rem;
+    }
+}*/
+@media screen and (max-width: 991px) {
+    .card-text-perso{
+        bottom: 1rem;
+    }
+    .oeuvre-left{
+        padding-right: 1rem;
+    }
+    .oeuvre-right{
+        padding-left: 1rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .br-after-oeuvre{
+        display: block;
+    }
+    .btn-see-big-oeuvre{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+} 
+@media screen and (max-width: 577px) {
+    .my-btn-close{
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    right: -0.7rem;
+    top: -0.7rem;
+    width: 45px;
+    height: 45px;
+    }
+}

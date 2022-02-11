@@ -57,7 +57,10 @@
         height: 31.5px;
     }
     .logo-text{
-        font-size: 10px;
+        font-size: 8px;
+    }
+    .br-after-nav{
+        display: none;
     }
 
 }
