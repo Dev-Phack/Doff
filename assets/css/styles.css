@@ -2,6 +2,17 @@
 @import url("assets/vendor/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf");
 @import url("assets/vendor/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf"); */
 
+.content-page{
+  display: none;
+}
+.fa-3x{
+  display: flex;
+  justify-content: center;
+}
+.fa-3x i{
+  position: relative;
+  top: 50vh;
+}
 *{
     /* font-family: "OpenSans-Regular"; */
     font-family: Arial, Helvetica, sans-serif;
