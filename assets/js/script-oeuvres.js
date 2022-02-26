@@ -75,3 +75,14 @@ function removeAttrMn() {
         oeuvresImg[i].removeAttribute("data-bs-toggle");            
     }
 }
+
+    // window.onload = function (){
+    //     setTimeout(function (){
+    //         let actual_link = window.location.href;
+    //         if (localStorage.getItem('section')){
+    //             window.location.href = actual_link+localStorage.getItem('section');
+    //             localStorage.removeItem('section');
+    //         }
+    //     }, 2000)
+    // }
+
