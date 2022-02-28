@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    .parcours-head{
+        display: none;
+    }
+    .parcours-head-m{
+        display: flex;
+        flex-direction: column;
+    }
+    .parcours-head-m h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .parcours-head-m img{
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .parcours-tof{
+        display: none;
+    }
+    .parcours-tof-m{
+        /* display: inline-block; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .expos{
+        margin-left: 0;
+        margin-top: 2.5rem;
+    }
+
+}
