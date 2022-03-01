@@ -13,6 +13,135 @@
     <title>DOFF - Contact</title>
 </head>
 <body>
+
+    <div class="fa-3x">
+        <!-- <i class="fas fa-circle-notch fa-spin"></i> -->
+        <i class="fas fa-sync fa-spin"></i>
+    </div>
     
+    <div class="content-page">
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body rounded" id="nav-container">
+            <div class="container-lg head-nav-div">
+                <a class="navbar-brand logo-complet" href="index.html">
+                    <img src="assets/img/logo.svg" alt="" width="80.97" height="51.5" class="logo">
+                    <span class="logo-text float-end ms-2 my-auto">ARTISTE PLASTICIEN <br> SCÉNOGRAPHE</span>
+                </a>
+                <button class="tog-nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="">
+                        <div class="container-toggle" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav nav-links d-flex">
+                        <li class="nav-item my-auto">
+                            <a class="nav-link nav-link2 mx-lg-5 mx-md-5" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link nav-link2 mx-lg-5 mx-md-5" href="oeuvres.html">Les oeuvres</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link nav-link2 mx-lg-5 mx-md-5" href="parcours.html">Parcours</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link nav-link2 mx-lg-5 mx-md-5" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item nav-social-link">
+                            <a class="nav-link" href="#">
+                                <img src="assets/img/facebook1x.png" alt="" width="30" height="30">
+                            </a>
+                        </li>
+                        <li class="nav-item nav-social-link">
+                            <a class="nav-link" href="#">
+                                <img src="assets/img/insta1x.png" alt="" width="30" height="30">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <span class="first-br-after-nav">
+            <br><br><br><br>
+        </span>
+        <span class="br-after-nav">
+            <br><br>
+        </span>
+
+        <section class="contact">
+            <div class="contact-head mb-3">
+                <img src="assets/img/underline.svg" alt="" class="contact-underline">
+                <h1 class="contact-title my-auto">Contact</h1>
+            </div>
+            <div class="contact-head-m mb-3">
+                <h1 class="contact-title-m my-auto">Contact</h1>
+                <img src="assets/img/underline.svg" alt="" class="contact-underline-m">
+            </div>
+            
+            <div class="container-fluid contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form action="" method="post">
+                            <label for="name" class="contact-label">Nom</label>
+                            <input type="text" name="name" id="name" class="contact-input">
+
+                            <label for="email" class="contact-label">Email</label>
+                            <input type="email" name="email" id="email" class="contact-input">
+
+                            <label for="subject" class="contact-label">Sujet</label>
+                            <input type="text" name="subject" id="subject" class="contact-input">
+
+                            <label for="message" class="contact-label">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                            <button type="submit" class="btn-submit">Envoyer</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 contact-infos">
+                        
+                        +235 62 74 02 99 <br>
+                        applosdoff@gmail.com <br> <br>
+                        
+                        N'Djaména, République du Tchad
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <footer class="footer-desktop mt-5 mb-5">
+            <h5 class="text-center footer-text">APPOLINAIRE GUIDIMBAYE ALIAS DOFF - ARTISTE PLASTICIEN SCÉNOGRAPHE - © 2022</h5>
+        </footer>
+        
+        <footer class="footer-mobile mt-5 mb-5">
+            <div class="footer-social-link m-auto mb-5">
+                <a href="#">
+                    <img src="assets/img/facebook1x.png" alt="" width="30" height="30">
+                </a>
+                <a href="#" class="ms-3">
+                    <img src="assets/img/insta1x.png" alt="" width="30" height="30">
+                </a>
+            </div>
+            <h5 class="text-center footer-text">APPOLINAIRE GUIDIMBAYE ALIAS DOFF <br> ARTISTE PLASTICIEN SCÉNOGRAPHE - © 2022
+            </h5>
+        </footer>
+
+
+    </div>
+    
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://kit.fontawesome.com/4565dce3a1.js" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
+
 </body>
 </html>

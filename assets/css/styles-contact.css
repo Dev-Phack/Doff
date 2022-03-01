@@ -1,0 +1,40 @@
+.contact-title{
+    display: inline-block   ;
+}
+.contact-head-m{
+    display: none;
+}
+.contact-head h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin-left: 0.5rem;
+}
+.contact-underline{
+    padding-bottom: 0.5rem;
+}
+.contact{
+    padding-left: 5rem;
+    margin-bottom: 5rem;
+}
+.contact-label{
+    display: block;
+}
+.contact-input{
+    width: 75%;
+    margin-bottom: 1rem;
+}
+#message{
+    width: 75%;
+}
+.btn-submit{
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: black;
+}
+.contact-infos{
+    font-weight: 600;
+}

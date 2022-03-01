@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .contact-head{
+        display: none;
+    }
+    .contact-head-m{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-head-m h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .contact-head-m img{
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .contact-infos{
+        font-weight: 600;
+        margin-top: 3rem;
+    }
+    .contact{
+        padding-left: 0;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+}
